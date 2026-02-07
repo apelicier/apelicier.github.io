@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio | IA & Data Science</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-blue-600">Projet UAM-I</span>
+            <div class="space-x-6">
+                <a href="#projets" class="hover:text-blue-600 transition">Projets</a>
+                <a href="#competences" class="hover:text-blue-600 transition">Compétences</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="max-w-5xl mx-auto px-4 py-20 text-center">
+        <h1 class="text-5xl font-extrabold mb-4">Bonjour, je suis <span class="text-blue-600">[Ton Nom]</span></h1>
+        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            Aspirant chercheur en **Intelligence Artificielle** et **Data Science**. 
+            Passionné par la résolution de problèmes complexes via le modelage mathématique.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="https://github.com" class="text-3xl hover:text-blue-600"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" class="text-3xl hover:text-blue-600"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </header>
+
+    <section id="projets" class="max-w-5xl mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold mb-10 border-b-2 border-blue-600 inline-block">Projets Phares</h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <span class="text-blue-600 text-sm font-bold uppercase">Machine Learning</span>
+                    <h3 class="text-xl font-bold mt-2">Analyse Prédictive de [Ton Sujet]</h3>
+                    <p class="text-gray-600 mt-3">Utilisation de Random Forest pour prédire les variations de... [Brève explication].</p>
+                    <div class="mt-4 flex gap-2">
+                        <span class="bg-gray-100 px-2 py-1 rounded text-xs text-gray-500">Python</span>
+                        <span class="bg-gray-100 px-2 py-1 rounded text-xs text-gray-500">Scikit-learn</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <span class="text-green-600 text-sm font-bold uppercase">Deep Learning</span>
+                    <h3 class="text-xl font-bold mt-2">Vision par Ordinateur : [Sujet]</h3>
+                    <p class="text-gray-600 mt-3">Implémentation d'un CNN pour la classification de...</p>
+                    <div class="mt-4 flex gap-2">
+                        <span class="bg-gray-100 px-2 py-1 rounded text-xs text-gray-500">PyTorch</span>
+                        <span class="bg-gray-100 px-2 py-1 rounded text-xs text-gray-500">OpenCV</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="bg-blue-600 text-white py-16">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-10">Stack Technique</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-4 border border-blue-400 rounded-lg">
+                    <i class="fab fa-python text-4xl mb-2"></i>
+                    <p class="font-bold">Python (Pandas, Numpy)</p>
+                </div>
+                <div class="p-4 border border-blue-400 rounded-lg">
+                    <i class="fas fa-database text-4xl mb-2"></i>
+                    <p class="font-bold">SQL / NoSQL</p>
+                </div>
+                <div class="p-4 border border-blue-400 rounded-lg">
+                    <i class="fas fa-chart-line text-4xl mb-2"></i>
+                    <p class="font-bold">Data Viz (Tableau/Seaborn)</p>
+                </div>
+                <div class="p-4 border border-blue-400 rounded-lg">
+                    <i class="fas fa-brain text-4xl mb-2"></i>
+                    <p class="font-bold">Machine Learning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-10 text-center text-gray-500">
+        <p>© 2026 - [Ton Nom] | Conçu pour le Posgrado UAM-I</p>
+    </footer>
+
+</body>
+</html>
